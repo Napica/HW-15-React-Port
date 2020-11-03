@@ -1,0 +1,28 @@
+{
+  "name": "HW-15-React-Port",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Napica/HW-15-React-Port.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Napica/HW-15-React-Port/issues"
+  },
+  "homepage": "https://github.com/Napica/HW-15-React-Port#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.10.11",
+    "path": "^0.12.7"
+  }
+}
