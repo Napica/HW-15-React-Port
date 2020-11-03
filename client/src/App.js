@@ -1,7 +1,18 @@
 import { useEffect } from "react";
-import logo from "./logo.svg";
-import "./App.css";
 import axios from "axios";
+import Navbar from "./components/Navbar/Navbar";
+import {
+  BrowserRouter as Router,
+  Route,
+  Link,
+  Switch,
+  Redirect,
+  useLocation,
+} from "react-router-dom";
+
+import Home from "./pages/Homepage";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 function App() {
   useEffect(() => {
@@ -12,22 +23,16 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/Projects" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
