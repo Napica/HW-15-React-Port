@@ -1,13 +1,11 @@
 import { useEffect } from "react";
 import axios from "axios";
-import Navbar from "./components/Navbar/Navbar";
+// import Navbar from "./components/Navbar/Navbar";
+import Header from "./components/Header/Header"
 import {
   BrowserRouter as Router,
   Route,
-  Link,
   Switch,
-  Redirect,
-  useLocation,
 } from "react-router-dom";
 
 import Home from "./pages/Homepage";
@@ -25,7 +23,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar />
+        <Header/>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/Projects" component={Projects} />
