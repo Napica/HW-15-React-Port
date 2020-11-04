@@ -1,10 +1,11 @@
 import React from "react";
 // import { Link } from "react-router-dom";
 
+
 function Homepage() {
   return (
     <div>
-      <div>
+      <div className="container">
         <div className="col-lg-8 section-background">
           <div className="aboutme row diplay" id="aboutMe">
             <hr />

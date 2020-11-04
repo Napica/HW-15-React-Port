@@ -7,8 +7,8 @@ const Header = () => {
     <div>
       <div className="jumbotron jumbotron-fluid">
         <div className="container">
-          <h1 className="display-4">Jumbotron Text if I want it</h1>
-          <p className="lead">Text if I want it</p>
+          <h1 className="display-4 styling">Looking to the future</h1>
+          <p className="lead"></p>
         </div>
       </div>
       <Navbar />
