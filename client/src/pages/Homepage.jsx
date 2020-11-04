@@ -1,6 +1,6 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-
+import image from "../Images/Portfolio (2).jpg"
 
 function Homepage() {
   return (
@@ -9,13 +9,10 @@ function Homepage() {
         <div className="col-lg-8 section-background">
           <div className="aboutme row diplay" id="aboutMe">
             <hr />
-            {/* <div className="col-sm-6">
-              <img
-                src="./assets/images/Porfolio Images/Portfolio.jpg"
-                className="img-fluid"
-                alt="Portfolio Image"
-              />
-            </div> */}
+            <div className="col-sm-6">
+                <hr/>
+              <img className= "rounded align-center float-center" src={image} alt="portfolio"/>
+            </div>
             <div className="col-sm-6">
               <hr />
               <p>
