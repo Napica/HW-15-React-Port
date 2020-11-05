@@ -1,15 +1,11 @@
 import React from "react";
 import "./Navbar.css";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="">
       <nav className="navbar navbar-expand-lg navbar-dark" id="navbar-color">
-        <Link to="/" className="navbar-brand">
-          For a brighter future!
-        </Link>
-
         <button
           className="navbar-toggler"
           type="button"
