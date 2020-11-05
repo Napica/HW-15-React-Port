@@ -2,12 +2,19 @@ import React from "react";
 // import { Link } from "react-router-dom";
 // import ProjectSection from "../components/ProjectsSection/ProjectSection";
 import List from "../components/Projects/ProjectsCard";
+import cryptic  from "../Images/cryptic_encounters_screenshot.png"
+import tonedTribe from "../Images/Project Screenshot 4png.png"
+import budget from "../Images/reademe1.png"
+import planner from "../Images/readMeImage5.png"
+import noteTaker from "../Images/readmeimage1.png"
+import burgers from "../Images/readme1.png"
 
 const projects = [
   {
     projectTitle: "Toned Tribe",
     repoLink: "https://github.com/Napica/Toned-Tribe",
     appLink: "https://napica.github.io/Toned-Tribe/",
+    image: tonedTribe,
     tech: "HTML/CSS/JS/JQuery",
     description:
       "Toned Tribe aims to provide a service that helps people with fitness focused goals physically by connecting them with their local community and inspire by providing motivational thoughts. Through this all-in-one application, users will be able to find markets and in their desired area along with a random motivational quote to get them through the day.",
@@ -16,6 +23,7 @@ const projects = [
     projectTitle: "Budget Buddy",
     repoLink: "https://github.com/Napica/Budget-Buddy",
     appLink: "https://budget-buddy-buddy.herokuapp.com/",
+    image: budget,
     tech: "HTML/CSS/JS/MongoDB/PWA",
     description:
       "For the financially conscious user, the Budget-Buddy application is designed and targeted to help with budgeting whether the user is online or offline. It is a useful tool that lets the user track and see their budget any time they need to.",
@@ -24,6 +32,7 @@ const projects = [
     projectTitle: "Cryptic Encounters",
     repoLink: "https://github.com/Napica/Cryptic-Encounters",
     appLink: "hhttps://cryptic-encounters.herokuapp.com/",
+    image: cryptic,
     tech:
       "HTML/CSS(foundation)/JS/Express/Handlebars/JQuery/Sequelize/Node/MySQL",
     description:
@@ -33,6 +42,7 @@ const projects = [
     projectTitle: "A Note Taker",
     repoLink: "https://github.com/Napica/Note-Taker",
     appLink: "https://secure-savannah-70424.herokuapp.com/",
+    image: noteTaker,
     tech: "HTML/CSS/JS//Node",
     description:
       "This project is designed to help a student, worker or anyone who just needs to take notes, be able to write, save, review and delete any information they would like to make.",
@@ -41,6 +51,7 @@ const projects = [
     projectTitle: "Burger on Burgers",
     repoLink: "https://github.com/Napica/Burgers-On-Burgers",
     appLink: "https://burgers-on-burgers-on-burgers.herokuapp.com/",
+    image: burgers,
     tech: "HTML/CSS/JS/Express/Handlebars/Node",
     description:
       "This fun app will allow the users to create their own burgers, interact with their burgers by munching it down and digesting the burger.",
@@ -49,6 +60,7 @@ const projects = [
     projectTitle: "Workday Planner",
     repoLink: "https://github.com/Napica/Plan-The-Day",
     appLink: "https://napica.github.io/HW-05-Plan-The-Day/",
+    image: planner,
     tech: "HTML/CSS/JS/",
     description:
       "The purpose of this appliaction is to help catalog any important events, dates or information an employeed would need for the day. It helps structure the work day into hours so that the employee can plan their day accordingly. This will help the employee become more organized and increase productivity.",

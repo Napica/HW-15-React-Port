@@ -1,4 +1,5 @@
 import React from "react";
+import "./ProjectsCard.css"
 
 // Whenever we try to render an array containing JSX, React knows to render each JSX element separately
 function List(props) {
@@ -17,6 +18,8 @@ function List(props) {
                 <h6 className="card-subtitle mb-2 text-muted text-center">
                   Tech used: {item.tech}
                 </h6>
+                <br/>
+                <img className= "size" src={item.image}/>
                 <br />
                 <div className="text-center">
                   <p className="card-text">{item.description}</p>
